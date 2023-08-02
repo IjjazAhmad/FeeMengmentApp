@@ -1,0 +1,21 @@
+.studentContainer {
+    .card {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        .imageDiv {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        // p{
+        //     line-height: 5px !important;
+        // }
+    }
+}
+.fa-trash-can:hover {
+    color: #ed0505
+}
+.fa-pen-to-square:hover {
+    color: #05c2ed
+}

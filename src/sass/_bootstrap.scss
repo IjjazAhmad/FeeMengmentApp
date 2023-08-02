@@ -1,0 +1,18 @@
+@import './color';
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+@import './dashboard';
+@import './student';
+@import './navbar';
+
+#root{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex: 1 0 auto;
+}
+.card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
